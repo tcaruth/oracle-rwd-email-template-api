@@ -1,12 +1,12 @@
-#Oracle Responsive Email Templates
+# Oracle Responsive Email Templates
 Here is an API for building Responsive Web Design Email Templates. Written in PL/SQL for Oracle development.
 
-##Changelog
-####1.1.0
+## Changelog
+### 1.1.0
 - Templates are now parameterized
 - More code refactoring
 
-####1.0.0
+### 1.0.0
 - **Decoupled the API from the send mail feature. Now it returns a CLOB value. Use your own email sending package.**
 - Added new global variables
 - New comments / documentation all over the API
@@ -16,12 +16,12 @@ Here is an API for building Responsive Web Design Email Templates. Written in PL
 - Added more options to typography
 - Added more options to buttons
 
-####0.1.0 - Initial Release
+### 0.1.0 - Initial Release
 
-##Install
+## Install
 - Run script `rwd_email.pks` and `rwd_email.pkb` in your schema
 
-##Run (example with apex_mail)
+## Run (example with apex_mail)
 ```language-sql
 DECLARE
     l_body     clob;
